@@ -186,17 +186,6 @@ The exception is Grade G and a few outlier quarters — smaller local samples me
  
 ---
  
-## Repository Structure
- 
-```
-├── bayesian_loan_default.py       # Model definitions (PyMC)
-├── generate_report.py             # Figure generation
-├── pymc_complete_pipeline.py      # End-to-end pipeline
-├── figures/                       # All report figures
-└── report.tex                     # Full LaTeX report
-```
- 
----
  
 ## Requirements
  
@@ -221,14 +210,6 @@ seaborn
 - **Scale** — 2 chains on 10k loans is fine for exploration. Full 1.3M-loan analysis would need variational inference or GPU-accelerated sampling (NumPyro/JAX).
  
 ---
- 
-## References
- 
-- Emekter et al. (2015). *Evaluating credit risk and loan performance in online Peer-to-Peer (P2P) lending.* Applied Economics.
-- Serrano-Cinca et al. (2015). *Determinants of Default in P2P Lending.* PLOS ONE.
-- Salvatier et al. / PyMC Dev Team (2023). *PyMC: A Modern and Comprehensive Probabilistic Programming Framework.*
-- Hoffman & Gelman (2014). *The No-U-Turn Sampler.* JMLR.
-- Kumar et al. (2019). *ArviZ: A unified library for exploratory analysis of Bayesian models.* JOSS.
- 
+
 
 
