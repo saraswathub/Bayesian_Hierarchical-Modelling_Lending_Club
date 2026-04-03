@@ -10,8 +10,6 @@ Credit risk modelling has a classic problem: borrowers aren't a homogeneous blob
  
 This project fits three Bayesian models of increasing complexity to LendingClub data and asks a simple question: does the added structure actually pay off in predictive accuracy, or is it just making things complicated for no reason?
  
-Short answer: it pays off. By a lot.
- 
 ---
  
 ## Dataset
